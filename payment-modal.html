@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickitz - Movie Ticket Booking</title>
+    <!-- Google Font: Mulish -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link:css -->
+    <link rel="stylesheet" href="assets/css/payment-modal.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">Tickitz</div>
+      <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Movie</a>
+        <a href="#">Buy Ticket</a>
+      </div>
+      <div class="auth-buttons">
+        <button class="signin-btn">SignIn</button>
+        <button class="signup-btn">Sign Up</button>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+      <div class="progress-step">
+        <div class="step-circle completed">
+          <span class="checkmark">✓</span>
+        </div>
+        <div class="step-title">Dates And Time</div>
+      </div>
+      <div class="progress-line"></div>
+      <div class="progress-step">
+        <div class="step-circle completed">
+          <span class="checkmark">✓</span>
+        </div>
+        <div class="step-title">Seat</div>
+      </div>
+      <div class="progress-line"></div>
+      <div class="progress-step">
+        <div class="step-circle">
+          <span>3</span>
+        </div>
+        <div class="step-title">Payment</div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+      <h2 class="section-title">Payment Info</h2>
+
+      <div class="info-label">DATE & TIME</div>
+      <div class="info-value">Tuesday, 07 July 2020 at 02:00pm</div>
+
+      <div class="info-label">MOVIE TITLE</div>
+      <div class="info-value">Spider-Man: Homecoming</div>
+
+      <div class="info-label">CINEMA NAME</div>
+      <div class="info-value">CineOne21 Cinema</div>
+
+      <div class="info-label">NUMBER OF TICKETS</div>
+      <div class="info-value">3 pieces</div>
+
+      <div class="info-label">TOTAL PAYMENT</div>
+      <div class="info-value total-payment">$30.00</div>
+
+      <h2 class="section-title">Personal Information</h2>
+
+      <div class="info-label">Full Name</div>
+      <input type="text" class="input-field" placeholder="Jonas El Rodriguez" />
+
+      <div class="info-label">Email</div>
+      <input
+        type="email"
+        class="input-field"
+        placeholder="jonasrodri123@gmail.com"
+      />
+
+      <div class="info-label">Phone Number</div>
+      <input type="tel" class="input-field" placeholder="+62     81445687121" />
+
+      <h2 class="section-title">Payment Method</h2>
+
+      <div class="payment-methods">
+        <div class="payment-option">
+          <img src="assets/images/google-pay.svg" />
+        </div>
+        <div class="payment-option">
+          <img src="assets/images/visa.svg" />
+        </div>
+        <div class="payment-option">
+          <img src="assets/images/gopay.svg" />
+        </div>
+        <div class="payment-option">
+          <img src="assets/images/paypall.svg" />
+        </div>
+        <div class="payment-option">
+          <img src="assets/images/dana.svg" />
+        </div>
+        <div class="payment-option">
+          <img src="assets/images/bca.svg" />
+        </div>
+        <div class="payment-option">
+          <img src="assets/images/bri.svg" />
+        </div>
+        <div class="payment-option">
+          <img src="assets/images/ovo.svg" />
+        </div>
+      </div>
+
+      <button class="pay-button">Pay your order</button>
+
+      <!-- Modal Overlay -->
+      <div class="modal-overlay">
+        <div class="modal">
+          <h2 class="modal-title">Payment Info</h2>
+
+          <div class="modal-row">
+            <div class="modal-label">No. Rekening Virtual :</div>
+            <div class="modal-value">12321328913829724</div>
+            <button class="modal-copy-button">Copy</button>
+          </div>
+
+          <div class="modal-row">
+            <div class="modal-label">Total Payment :</div>
+            <div class="modal-value">$30</div>
+          </div>
+
+          <div class="modal-message">
+            Pay this payment bill before it is due,
+            <span class="modal-due-date">on June 23, 2023</span> If the bill has
+            not been paid by the specified time, it will be forfeited
+          </div>
+
+          <button class="modal-check-payment">Check Payment</button>
+          <button class="modal-pay-later">Pay Later</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="footer-logo"><img src="assets/images/tickitz.svg" /></div>
+          <div class="footer-tagline">
+            Stop waiting in line. Buy tickets conveniently, watch movies
+            quietly.
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="footer-heading">Explore</h3>
+          <ul class="footer-links">
+            <li><a href="#">Cinemas</a></li>
+            <li><a href="#">Movies List</a></li>
+            <li><a href="#">My Ticket</a></li>
+            <li><a href="#">Notification</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="footer-heading">Our Sponsor</h3>
+          <div class="sponsor-logos">
+            <div class="sponsor-logo"><img src="assets/images/ebu.svg" /></div>
+            <div class="sponsor-logo"><img src="assets/images/cine.svg" /></div>
+            <div class="sponsor-logo"><img src="assets/images/hif.svg" /></div>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3 class="footer-heading">Follow us</h3>
+          <div class="social-links">
+            <a href="#" class="social-link"
+              ><img src="assets/images/fb.svg" />Tickitz Cinema id</a
+            >
+            <a href="#" class="social-link"
+              ><img src="assets/images/ig.svg" />tickitz.id</a
+            >
+            <a href="#" class="social-link"
+              ><img src="assets/images/x.svg" />tickitz.id</a
+            >
+            <a href="#" class="social-link"
+              ><img src="assets/images/you.svg" />Tickitz Cinema id</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">© 2020 Tickitz. All Rights Reserved.</div>
+    </div>
+  </body>
+</html>
