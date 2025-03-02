@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #f5f6f8;
+  background-color: white;
   color: #4e4b66;
 }
 
@@ -25,14 +25,14 @@ header {
 }
 
 .logo {
-  color: #2a6ef0;
+  color: var(--color-primary);
   font-size: 24px;
   font-weight: bold;
   font-family: "Mulish", serif;
 }
 
 .logo span {
-  color: #2a6ef0;
+  color: var(--color-primary);
 }
 
 nav {
@@ -60,13 +60,13 @@ nav a {
 
 .sign-in {
   background-color: white;
-  border: 1px solid #2a6ef0;
-  color: #2a6ef0;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
   font-family: "Mulish", serif;
 }
 
 .sign-up {
-  background-color: #2a6ef0;
+  background-color: var(--color-primary);
   border: none;
   color: white;
   font-family: "Mulish", serif;
@@ -201,7 +201,7 @@ nav a {
 }
 
 .filter-button {
-  background-color: #2a6ef0;
+  background-color: var(--color-primary);
   color: white;
   border: none;
   padding: 12px 50px;
@@ -280,7 +280,7 @@ nav a {
 }
 
 .page-item.active {
-  background-color: #2a6ef0;
+  background-color: var(--color-primary);
   color: white;
 }
 
@@ -292,7 +292,7 @@ nav a {
 }
 
 .book-now {
-  background-color: #2a6ef0;
+  background-color: var(--color-primary);
   color: white;
   border: none;
   padding: 12px 30px;
@@ -314,7 +314,7 @@ footer {
 }
 
 .footer-logo {
-  color: #2a6ef0;
+  color: var(--color-primary);
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
