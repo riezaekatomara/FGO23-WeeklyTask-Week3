@@ -276,9 +276,9 @@ section {
 } */
 
 .images-add {
-  position: absolute;
-  left: 550px;
-  top: 715px;
+  position: relative;
+  left: 411px;
+  top: 47px;
 }
 
 /* movies section */
