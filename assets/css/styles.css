@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 :root {
   --color-primary: #1d4ed8;
 }
@@ -68,7 +73,7 @@ section {
   margin-bottom: 40px;
 }
 
-/* Navigation Bar */
+/* nav bar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -94,12 +99,16 @@ section {
   font-weight: 500;
 }
 
+.nav-kiri {
+  display: flex;
+}
+
 .nav-buttons {
   display: flex;
   gap: 15px;
 }
 
-/* Hero Section */
+/* hero section */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -125,20 +134,58 @@ section {
 .hero-images {
   display: grid;
   grid-template-columns: 150px 150px;
-  grid-template-rows: 120px 40px 120px;
-  gap: 5px;
-  height: 500px;
+  grid-template-rows: 120px 50px 120px;
+  gap: 12px;
+  /* height: 500px; */
   grid-template-areas:
-    "a b"
+    "a b "
     "c b"
     "c d";
+  /* border: 1px solid red; */
 }
 
-.movie-poster-grid img {
+.hero-images > div {
+  background-size: cover;
+}
+
+.hero-images div:nth-child(1) {
+  grid-area: a;
+  border-radius: 15px 15px 0 0;
+}
+
+.hero-images div:nth-child(2) {
+  grid-area: b;
+  border-radius: 15px 15px 0 0;
+}
+
+.hero-images div:nth-child(3) {
+  grid-area: c;
+  border-radius: 0 0 15px;
+}
+
+.hero-images div:nth-child(4) {
+  grid-area: d;
+  border-radius: 0 0 15px;
+}
+
+/* .movie-poster-grid:nth-child(1) img {
+  
+}
+.movie-poster-grid:nth-child(2) img {
+  grid-area: b;
+}
+.movie-poster-grid:nth-child(3) img {
+  grid-area: c;
+}
+.movie-poster-grid:nth-child(4) img {
+  grid-area: d;
+} */
+
+/* .movie-poster-grid img {
   width: 100%;
 }
 
-/* Features Section */
+/* features section */
 .features {
   text-align: left;
   background-color: white;
@@ -208,7 +255,7 @@ section {
   font-size: 16px;
 }
 
-.poster1 {
+/* .poster1 {
   grid-area: a;
   border-radius: 15px 15px 0 0;
 }
@@ -226,15 +273,15 @@ section {
 .poster4 {
   grid-area: d;
   border-radius: 0 0 15px 15px;
-}
+} */
 
 .images-add {
   position: absolute;
   left: 551px;
-  top: 912px;
+  top: 715px;
 }
 
-/* Movies Section */
+/* movies section */
 .movies h2 {
   color: var(--color-primary);
   font-size: 18px;
@@ -304,6 +351,8 @@ section {
   border: 1px solid white;
   border-radius: 4px;
   font-size: 14px;
+  position: relative;
+  bottom: 210px;
 }
 
 .movie-tag {
@@ -357,6 +406,9 @@ section {
   font-size: 14px;
   font-weight: 600;
   margin-top: 10px;
+  position: relative;
+  bottom: 300px;
+  left: 64px;
 }
 
 .view-all {
@@ -369,7 +421,7 @@ section {
   font-weight: 600;
 }
 
-/* Upcoming Movies Section */
+/* upcoming movies section */
 .upcoming-movies .section-header1 {
   display: flex;
   justify-content: space-between;
@@ -434,7 +486,7 @@ section {
   margin-bottom: 10px;
 }
 
-/* Newsletter Section */
+/* newsletter section */
 .newsletter {
   background-color: var(--color-primary);
   color: white;
@@ -449,8 +501,6 @@ section {
 .newsletter h3 {
   font-size: 24px;
   margin-bottom: 30px;
-  position: relative;
-  left: 130px;
 }
 
 .newsletter-form {
@@ -469,6 +519,7 @@ section {
   outline: none;
   font-size: 14px;
   font-family: "Mulish", serif;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .newsletter .btn-primary {
@@ -479,7 +530,7 @@ section {
   font-family: "Mulish", serif;
 }
 
-/* Footer */
+/* footer */
 .footer {
   background-color: white;
   margin-top: 120px;
@@ -587,7 +638,7 @@ footer p {
     gap: 40px;
   }
   .subtitle {
-    width: 327px;
+    width: 300px;
     height: 68px;
     text-align: center;
     font-size: 18px;
@@ -707,5 +758,62 @@ footer p {
   .newsletter {
     width: 327px;
     height: 538px;
+  }
+  .images-add {
+    display: none;
+  }
+  .features h3 {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  .newsletter-form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .newsletter {
+    position: relative;
+    left: 32px;
+  }
+  .footer-content {
+    flex-direction: column;
+    position: relative;
+    left: 120px;
+  }
+  .footer-column > h4 {
+    margin-top: 20px;
+    left: 5px;
+  }
+  .social-links {
+    position: relative;
+    left: 60px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .img-add {
+    display: none;
+  }
+  .subscribe1 {
+    display: none;
+  }
+  .href-add {
+    position: relative;
+    bottom: 10px;
+    right: 40px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 90px;
+  }
+  .nav-buttons {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    left: 187px;
   }
 }

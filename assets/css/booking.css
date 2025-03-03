@@ -15,7 +15,7 @@ body {
   color: #4e4b66;
 }
 
-/* Header Styles */
+/* header */
 header {
   display: flex;
   justify-content: space-between;
@@ -72,7 +72,7 @@ nav a {
   font-family: "Mulish", serif;
 }
 
-/* Hero Section */
+/* hero section */
 .hero {
   height: 250px;
   background-image: url("../images/bg2.png");
@@ -80,7 +80,7 @@ nav a {
   background-position: center;
 }
 
-/* Movie Details Section */
+/* movie details section */
 .movie-details {
   display: flex;
   gap: 30px;
@@ -163,7 +163,7 @@ nav a {
   color: var(--color-secondary);
 }
 
-/* Booking Section */
+/* booking section */
 .booking-section {
   padding: 30px 100px;
 }
@@ -209,7 +209,7 @@ nav a {
   cursor: pointer;
 }
 
-/* Cinema Selection */
+/* cinema selection */
 .choose {
   position: relative;
   bottom: 50px;
@@ -261,7 +261,6 @@ nav a {
   max-height: 50px;
 }
 
-/* Pagination */
 .pagination {
   display: flex;
   justify-content: center;
@@ -284,7 +283,6 @@ nav a {
   color: white;
 }
 
-/* Book Now Button */
 .book-now-container {
   display: flex;
   justify-content: center;
@@ -301,7 +299,7 @@ nav a {
   font-weight: 500;
 }
 
-/* Footer */
+/* footer */
 footer {
   padding: 50px 100px;
   background-color: white;

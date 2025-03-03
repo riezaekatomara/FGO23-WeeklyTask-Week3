@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 body {
@@ -37,7 +37,7 @@ ul {
   list-style: none;
 }
 
-/* Header Styles */
+/* header styles */
 header {
   background-color: white;
   padding: 20px 0;
@@ -95,7 +95,7 @@ nav {
   font-weight: 500;
 }
 
-/* Progress Steps */
+/* progress steps */
 .progress-container {
   margin: 30px 0;
 }
@@ -150,7 +150,7 @@ nav {
   font-size: 14px;
 }
 
-/* Main Content */
+/* main content */
 .booking-section {
   display: flex;
   gap: 20px;
@@ -171,7 +171,7 @@ nav {
   flex: 3;
 }
 
-/* Movie Info Section */
+/* movie info section */
 .movie-info {
   display: flex;
   align-items: center;
@@ -234,7 +234,7 @@ nav {
   left: 220px;
 }
 
-/* Seat Selection */
+/* seat selection */
 .seat-selection h3 {
   color: #14142b;
   margin-bottom: 20px;
@@ -338,7 +338,7 @@ nav {
   color: #4e4b66;
 }
 
-/* Seating Key */
+/* seating key */
 .seating-key {
   margin-top: 40px;
 }
@@ -365,7 +365,7 @@ nav {
   border-radius: 4px;
 }
 
-/* Order Summary */
+/* order summary */
 .cinema-info {
   text-align: center;
   margin-bottom: 30px;
@@ -431,7 +431,7 @@ nav {
   font-size: 16px;
 }
 
-/* Footer */
+/* footer */
 footer {
   background-color: white;
   padding: 60px 0 20px;

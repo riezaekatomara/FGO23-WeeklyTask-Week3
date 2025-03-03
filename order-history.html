@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickitz - Movie Ticket Portal</title>
+    <!-- Google Font: Mulish -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link:css -->
+    <link rel="stylesheet" href="assets/css/order-history.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><img src="assets/images/tickitz.svg" /></div>
+      <div class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="#">Movie</a>
+        <a href="order.html">Buy Ticket</a>
+      </div>
+      <div class="user-menu">
+        <div class="location">Location<img src="assets/images/navi.svg" /></div>
+        <div class="search-icon">
+          <img src="assets/images/search.svg" />
+        </div>
+        <img
+          src="assets/images/jonas.png"
+          alt="User Avatar"
+          class="user-avatar"
+        />
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="sidebar">
+        <div class="info-section">
+          <div class="info-header">
+            <div>INFO</div>
+            <div class="ellipsis">⋯</div>
+          </div>
+          <div class="user-profile">
+            <img
+              src="assets/images/jonas.png"
+              alt="User Profile"
+              class="user-profile-img"
+            />
+            <div class="user-name">Jonas El Rodriguez</div>
+            <div class="user-type">Moviegoers</div>
+          </div>
+        </div>
+
+        <div class="loyalty-section">
+          <div class="loyalty-title">Loyalty Points</div>
+          <div class="loyalty-card">
+            <div class="loyalty-card-title">
+              Moviegoers
+              <span class="star-icon"
+                ><img src="assets/images/star.svg"
+              /></span>
+            </div>
+            <div class="loyalty-points">
+              320<span style="font-size: 12px; font-weight: normal">
+                points</span
+              >
+            </div>
+            <div class="points-info">180 points become a master</div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="tabs">
+          <div class="tab">Account Settings</div>
+          <div class="tab active">Order History</div>
+        </div>
+
+        <div class="ticket-card">
+          <div class="ticket-header">Tuesday, 07 July 2020 - 04:30pm</div>
+          <div class="ticket-content">
+            <div class="ticket-info">
+              <div class="movie-title">Spider-Man: Homecoming</div>
+            </div>
+            <img
+              src="assets/images/cine.svg"
+              alt="CineOne21"
+              class="cinema-logo"
+            />
+          </div>
+          <div
+            class="ticket-actions"
+            style="
+              padding: 0 25px 15px;
+              border-top: 1px dotted var(--color-secondary);
+            "
+          >
+            <div
+              class="ticket-status status-active"
+              style="position: relative; top: 30px"
+            >
+              Ticket in active
+            </div>
+            <div
+              class="ticket-status status-not-paid"
+              style="position: relative; top: 30px"
+            >
+              Not Paid
+            </div>
+          </div>
+          <div class="ticket-footer">
+            Show Details
+            <span class="more-icon"><img src="assets/images/navi.svg" /></span>
+          </div>
+        </div>
+
+        <div class="ticket-card">
+          <div class="ticket-header">Monday, 14 June 2020 - 02:00pm</div>
+          <div class="ticket-content">
+            <div class="ticket-info">
+              <div class="movie-title">Avengers: End Game</div>
+            </div>
+            <img src="assets/images/ebu.svg" alt="ebv.id" class="cinema-logo" />
+          </div>
+          <div
+            class="ticket-actions"
+            style="
+              padding: 0 20px 15px;
+              border-top: 1px dotted var(--color-secondary);
+            "
+          >
+            <div class="ticket-status status-used">Ticket used</div>
+            <div class="ticket-status status-paid">Paid</div>
+          </div>
+          <div class="ticket-footer">
+            Show Details
+            <span class="more-icon"><img src="assets/images/navi.svg" /></span>
+          </div>
+        </div>
+
+        <div class="ticket-card">
+          <div class="ticket-header">Monday, 14 June 2020 - 02:00pm</div>
+          <div class="ticket-content">
+            <div class="ticket-info">
+              <div class="movie-title">Avengers: End Game</div>
+            </div>
+            <img src="assets/images/ebu.svg" alt="ebv.id" class="cinema-logo" />
+          </div>
+          <div
+            class="ticket-actions"
+            style="
+              padding: 0 20px 15px;
+              border-top: 1px dotted var(--color-secondary);
+            "
+          >
+            <div class="ticket-status status-used">Ticket used</div>
+            <div class="ticket-status status-paid">Paid</div>
+          </div>
+          <div class="ticket-footer">
+            Show Details
+            <span class="more-icon"><img src="assets/images/navi.svg" /></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

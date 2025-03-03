@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/order.css" />
   </head>
   <body>
-    <!-- Header/Navbar -->
+    <!-- header/navbar -->
     <header>
       <div class="container">
         <nav>
@@ -23,24 +23,32 @@
             <h1><img src="assets/images/tickitz.svg" /></h1>
           </div>
           <div class="nav-links">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">Movie</a>
-            <a href="#">Buy Ticket</a>
+            <a href="order.html">Buy Ticket</a>
           </div>
           <div class="auth-buttons">
-            <button class="btn-signin">SignIn</button>
-            <button class="btn-signup">Sign Up</button>
+            <button class="btn-signin">
+              <a href="login.html" style="color: var(--color-primary)"
+                >Sign In</a
+              >
+            </button>
+            <button class="btn-signup">
+              <a href="register.html" style="color: white">Sign Up</a>
+            </button>
           </div>
         </nav>
       </div>
     </header>
 
-    <!-- Progress Steps -->
+    <!-- progress steps -->
     <div class="progress-container">
       <div class="progress-steps">
         <div class="step completed">
           <div class="step-circle">
-            <span class="check-icon">✓</span>
+            <span class="check-icon"
+              ><img src="assets/images/centang.svg"
+            /></span>
           </div>
           <div class="step-label">Dates And Time</div>
         </div>
@@ -57,10 +65,9 @@
       </div>
     </div>
 
-    <!-- Main Content -->
+    <!-- main content -->
     <main class="container">
       <div class="booking-section">
-        <!-- Left Side - Seat Selection -->
         <div class="seat-selection">
           <div class="movie-info">
             <img
@@ -236,7 +243,7 @@
               </div>
             </div>
 
-            <!-- Seat Numbers -->
+            <!-- seat numbers -->
             <div class="seat-numbers">
               <div class="left-numbers">
                 <div class="number">1</div>
@@ -258,7 +265,7 @@
               </div>
             </div>
 
-            <!-- Seating Key -->
+            <!-- seating key -->
             <div class="seating-key">
               <h4>Seating key</h4>
               <div class="key-items">
@@ -283,7 +290,7 @@
           </div>
         </div>
 
-        <!-- Right Side - Order Summary -->
+        <!-- right Side - order Summary -->
         <div class="order-summary">
           <div class="cinema-info">
             <h2><img src="assets/images/cine.svg" /></h2>
@@ -319,7 +326,7 @@
       </div>
     </main>
 
-    <!-- Footer -->
+    <!-- footer -->
     <footer>
       <div class="container">
         <div class="footer-content">

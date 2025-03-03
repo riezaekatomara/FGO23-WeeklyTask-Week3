@@ -7,14 +7,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Mulish", serif;
 }
 
 body {
   background-color: #f6f6f6;
 }
 
-/* Header Styles */
+/* header styles */
 .header {
   display: flex;
   justify-content: space-between;
@@ -62,7 +62,7 @@ body {
   cursor: pointer;
 }
 
-/* Progress Bar Styles */
+/* progress bar styles */
 .progress-container {
   display: flex;
   justify-content: center;
@@ -110,7 +110,7 @@ body {
   margin-bottom: 24px;
 }
 
-/* Main Content Styles */
+/* main content */
 .main-container {
   max-width: 800px;
   margin: 0 auto;
@@ -146,7 +146,7 @@ body {
   font-weight: bold;
 }
 
-/* Form Styles */
+/* form */
 .input-field {
   width: 100%;
   padding: 12px;
@@ -155,7 +155,7 @@ body {
   border-radius: 4px;
 }
 
-/* Payment Methods */
+/* payment methods */
 .payment-methods {
   display: flex;
   flex-wrap: wrap;
@@ -192,7 +192,7 @@ body {
   margin-top: 20px;
 }
 
-/* Footer Styles */
+/* footer styles */
 .footer {
   background-color: white;
   padding: 40px 80px;

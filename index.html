@@ -16,10 +16,11 @@
   </head>
   <body>
     <header>
-      <!-- Navbar -->
+      <!-- navbar -->
       <nav class="navbar">
         <div class="logo">
           <img
+            class="nav-kiri"
             src="assets/images/tickitz.svg"
             alt="Logo Tickitz"
             style="width: 130px; height: 51px"
@@ -28,15 +29,18 @@
         <div class="nav-links">
           <a href="#" class="nav-item">Home</a>
           <a href="#" class="nav-item">Movie</a>
-          <a href="#" class="nav-item">Buy Ticket</a>
+          <a href="order.html" class="nav-item">Buy Ticket</a>
         </div>
         <div class="nav-buttons">
-          <a href="#" class="btn btn-outline">Sign In</a>
-          <a href="#" class="btn btn-primary">Sign Up</a>
+          <a href="login.html" class="btn btn-outline">Sign In</a>
+          <a href="register.html" class="btn btn-primary">Sign Up</a>
+        </div>
+        <div>
+          <img class="img-add" src="assets/images/menu-right.svg" />
         </div>
       </nav>
     </header>
-    <!-- Hero Section -->
+    <!-- hero section -->
     <section class="hero">
       <div class="hero-content">
         <div class="subtitle">MOVIE TICKET PURCHASES #1 IN INDONESIA</div>
@@ -44,34 +48,14 @@
         <p>Sign up and get the ticket with a lot of discount</p>
       </div>
       <div class="hero-images">
-        <div class="movie-poster-grid">
-          <img
-            src="assets/images/john-wick.png"
-            alt="John Wick"
-            class="poster1"
-          />
-        </div>
-        <div class="movie-poster-grid">
-          <img
-            src="assets/images/lion-king.png"
-            alt="Lion King"
-            class="poster2"
-          />
-        </div>
-        <div class="movie-poster-grid">
-          <img
-            src="assets/images/spiderman.png"
-            alt="Spiderman"
-            class="poster3"
-          />
-        </div>
-        <div class="movie-poster-grid">
-          <img src="assets/images/roblox.jpg" alt="Roblox" class="poster4" />
-        </div>
+        <div style="background-image: url('assets/images/john-wick.png')"></div>
+        <div style="background-image: url('assets/images/lion-king.png')"></div>
+        <div style="background-image: url('assets/images/spiderman.png')"></div>
+        <div style="background-image: url('assets/images/roblox.jpg')"></div>
       </div>
     </section>
 
-    <!-- Features Section -->
+    <!-- features section -->
     <section class="features">
       <h2>WHY CHOOSE US</h2>
       <h3>Unleashing the Ultimate Movie Experience</h3>
@@ -107,7 +91,7 @@
       </div>
     </section>
 
-    <!-- Movie Section -->
+    <!-- movie section -->
     <section class="movies">
       <div class="section-header">
         <h2>MOVIES</h2>
@@ -132,7 +116,7 @@
               <span class="genre">Action</span>
               <span class="genre">Adventure</span>
             </div>
-            <a href="#" class="buy-ticket-btn">Buy Ticket</a>
+            <a href="order.html" class="buy-ticket-btn">Buy Ticket</a>
           </div>
         </div>
 
@@ -195,7 +179,7 @@
       </div>
     </section>
 
-    <!-- Upcoming Movies Section -->
+    <!-- upcoming movies section -->
     <section class="upcoming-movies">
       <div class="section-header1">
         <h2>UPCOMING MOVIES</h2>
@@ -347,17 +331,15 @@
       </div>
     </section>
 
-    <!-- Newsletter Section -->
+    <!-- newsletter section -->
     <section class="newsletter">
-      <h3 style="size: 48px; width: 732px; height: 50px">
-        Subscribe to our newsletter
-      </h3>
+      <h3>Subscribe to our newsletter</h3>
       <form class="newsletter-form">
         <input
           type="text"
           placeholder="First name"
           class="newsletter-input"
-          style="width: 231px; height: 60px; border-radius: 9px; opacity: 1"
+          style="width: 231px; height: 60px; border-radius: 9px"
         />
         <input
           type="email"
@@ -375,7 +357,7 @@
       </form>
     </section>
 
-    <!-- Footer -->
+    <!-- footer -->
     <footer class="footer">
       <div class="footer-content">
         <!-- <div class="footer-logo"> -->
@@ -425,39 +407,19 @@
           <ul class="social-links">
             <li>
               <img src="assets/images/fb.svg" class="img-add-footer" />
-              <a
-                href="#"
-                class="href-add"
-                style="position: absolute; right: 160px"
-                >Tickitz Cinema id</a
-              >
+              <a href="#" class="href-add">Tickitz Cinema id</a>
             </li>
             <li>
               <img src="assets/images/ig.svg" class="img-add-footer" />
-              <a
-                href="#"
-                class="href-add"
-                style="position: absolute; right: 218px"
-                >tickitz.id</a
-              >
+              <a href="#" class="href-add">tickitz.id</a>
             </li>
             <li>
               <img src="assets/images/x.svg" class="img-add-footer" />
-              <a
-                href="#"
-                class="href-add"
-                style="position: absolute; right: 218px"
-                >tickitz.id</a
-              >
+              <a href="#" class="href-add">tickitz.id</a>
             </li>
             <li>
               <img src="assets/images/you.svg" class="img-add-footer" />
-              <a
-                href="#"
-                class="href-add"
-                style="position: absolute; right: 162px"
-                >Tickitz Cinema id</a
-              >
+              <a href="#" class="href-add">Tickitz Cinema id</a>
             </li>
           </ul>
         </div>
