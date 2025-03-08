@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickitz - Movie Ticket Booking</title>
+    <!-- Google Font: Mulish -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link:css -->
+    <link rel="stylesheet" href="assets/css/movie.css" />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            class="nav-kiri"
+            src="assets/images/tickitz.svg"
+            alt="Logo Tickitz"
+            style="width: 130px; height: 51px"
+          />
+        </div>
+        <div class="nav-links">
+          <a href="#" class="nav-item">Home</a>
+          <a href="#movie" class="nav-item">Movie</a>
+          <a href="booking.html" class="nav-item">Buy Ticket</a>
+        </div>
+        <div class="nav-buttons">
+          <a href="login.html" class="btn btn-outline">Sign In</a>
+          <a href="register.html" class="btn btn-primary">Sign Up</a>
+        </div>
+        <!-- <div>
+          <img class="img-add" src="assets/images/menu-right.svg" />
+        </div> -->
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p>List Movie of the Week</p>
+          <h1>
+            Experience the Magic of<br />Cinema: Book Your<br />Tickets Today
+          </h1>
+        </div>
+      </section>
+
+      <section class="filters">
+        <div class="search-add1">
+          <p>Cari event</p>
+          <input type="text" placeholder="Search Event" class="search-input" />
+        </div>
+        <div class="genre-filters">
+          <p>Filter</p>
+          <div class="search-add2">
+            <button class="active">Thriller</button>
+            <button>Horror</button>
+            <button>Romantic</button>
+            <button>Adventure</button>
+            <button>Sci-Fi</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="movie-grid">
+        <div class="movie-card">
+          <img src="assets/images/black-widoww.png" alt="Black Widow" />
+          <h3>Black Widow</h3>
+          <p>Action, Adventure</p>
+        </div>
+        <div class="movie-card">
+          <img
+            src="assets/images/the-witches.png"
+            alt="The Witches"
+            style="width: 264px; height: 405px"
+          />
+          <h3>The Witches</h3>
+          <p>Comedy, Animation</p>
+        </div>
+        <div class="movie-card">
+          <img src="assets/images/tenet.png" alt="Tenet" />
+          <h3>Tenet</h3>
+          <p>Action, Sci-Fi</p>
+        </div>
+        <div class="movie-card">
+          <img src="assets/images/spiderman3.png" alt="Spiderman" />
+          <h3>Spiderman</h3>
+          <p>Action, Adventure</p>
+        </div>
+        <div class="movie-card">
+          <img src="assets/images/black-widoww.png" alt="Black Widow" />
+          <h3>Black Widow</h3>
+          <p>Action, Adventure</p>
+        </div>
+        <div class="movie-card">
+          <img
+            src="assets/images/the-witches.png"
+            alt="The Witches"
+            style="width: 264px; height: 405px"
+          />
+          <h3>The Witches</h3>
+          <p>Comedy, Animation</p>
+        </div>
+        <div class="movie-card">
+          <img src="assets/images/tenet.png" alt="Tenet" />
+          <h3>Tenet</h3>
+          <p>Action, Sci-Fi</p>
+        </div>
+        <div class="movie-card">
+          <img src="assets/images/spiderman3.png" alt="Spiderman" />
+          <h3>Spiderman</h3>
+          <p>Action, Adventure</p>
+        </div>
+        <div class="movie-card">
+          <img src="assets/images/black-widoww.png" alt="Black Widow" />
+          <h3>Black Widow</h3>
+          <p>Action, Adventure</p>
+        </div>
+        <div class="movie-card">
+          <img
+            src="assets/images/the-witches.png"
+            alt="The Witches"
+            style="width: 264px; height: 405px"
+          />
+          <h3>The Witches</h3>
+          <p>Comedy, Animation</p>
+        </div>
+        <div class="movie-card">
+          <img src="assets/images/tenet.png" alt="Tenet" />
+          <h3>Tenet</h3>
+          <p>Action, Sci-Fi</p>
+        </div>
+        <div class="movie-card">
+          <img src="assets/images/spiderman3.png" alt="Spiderman" />
+          <h3>Spiderman</h3>
+          <p>Action, Adventure</p>
+        </div>
+      </section>
+
+      <section class="pagination">
+        <button class="prev">&lt;</button>
+        <span class="page-number active">1</span>
+        <span class="page-number">2</span>
+        <span class="page-number">3</span>
+        <button class="next">&gt;</button>
+      </section>
+    </main>
+
+    <!-- newsletter section -->
+    <section class="newsletter">
+      <h3>Subscribe to our newsletter</h3>
+      <form class="newsletter-form">
+        <input
+          type="text"
+          placeholder="First name"
+          class="newsletter-input"
+          style="width: 231px; height: 60px; border-radius: 9px"
+        />
+        <input
+          type="email"
+          placeholder="Email address"
+          class="newsletter-input"
+          style="width: 231px; height: 60px; border-radius: 9px"
+        />
+        <button
+          type="submit"
+          class="btn btn-primary"
+          style="width: 231px; height: 60px; border-radius: 9px"
+        >
+          Subscribe Now
+        </button>
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- <div class="footer-logo"> -->
+
+        <div class="logo">
+          <img
+            src="assets/images/tickitz.svg"
+            alt="Logo Tickitz"
+            style="width: 183.8px; height: 71.4px"
+          />
+          <p style="width: 284px; height: 64px; font-size: 16px; color: #666">
+            Stop wasting time. Buy tickets conveniently, watch movies quietly.
+          </p>
+        </div>
+
+        <!-- <div class="footer-links"> -->
+        <div class="footer-column">
+          <h4 style="margin-bottom: 35px">Explore</h4>
+          <ul>
+            <li><a href="#">Cinemas</a></li>
+            <li><a href="#">Movies List</a></li>
+            <li><a href="#">My Ticket</a></li>
+            <li><a href="#">Notification</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <div class="sponsors">
+            <h4 style="width: 100px">Our Sponsor</h4>
+            <a href="#" class="sponsor"><img src="assets/images/ebu.svg" /></a>
+            <a href="#" class="sponsor"><img src="assets/images/cine.svg" /></a>
+            <a href="#" class="sponsor"><img src="assets/images/hif.svg" /></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4
+            style="
+              width: 100px;
+              position: relative;
+              right: 50px;
+              margin-bottom: 35px;
+            "
+          >
+            Follow us
+          </h4>
+          <ul class="social-links">
+            <li>
+              <img src="assets/images/fb.svg" class="img-add-footer" />
+              <a href="#" class="href-add">Tickitz Cinema id</a>
+            </li>
+            <li>
+              <img src="assets/images/ig.svg" class="img-add-footer" />
+              <a href="#" class="href-add">tickitz.id</a>
+            </li>
+            <li>
+              <img src="assets/images/x.svg" class="img-add-footer" />
+              <a href="#" class="href-add">tickitz.id</a>
+            </li>
+            <li>
+              <img src="assets/images/you.svg" class="img-add-footer" />
+              <a href="#" class="href-add">Tickitz Cinema id</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <footer>
+      <p style="margin-bottom: 40px; text-align: center">
+        © 2020 Tickitz. All Rights Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
